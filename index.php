@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('SLUG Home Page');
-?>
+<?php include('include/header.php'); ?>
 <div id="content1">
 
 <CENTER>
@@ -110,7 +107,4 @@ irc.shadowworld.net #sslug<br>
 
 </div>
 
-<?
-page_footer();
-?>
-
+<?php include("include/footer.php");?>
