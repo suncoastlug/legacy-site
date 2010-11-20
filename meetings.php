@@ -78,7 +78,7 @@ a DOS/Windows environment.
 </LI>
 <LI>
 Ensure you have enough memory and hard disk space to complete your Linux
-installation. At a minimum, this means 4-8 megs of memory and 150 megs
+installation. At a minimum, this means 256megs of memory and 3 gigs
 of hard drive space.
 </LI>
 </UL>
