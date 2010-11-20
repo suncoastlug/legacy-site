@@ -1,3 +1,4 @@
+<?php $title = "SLUG Home Page";?>
 <?php include('include/header.php'); ?>
 <div id="content1">
 
