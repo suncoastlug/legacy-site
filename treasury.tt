@@ -1,6 +1,4 @@
 [% WRAPPER page.tt title = "SLUG Treasury Page" %]
-include("include/header.php");
-?>
 	<div id="content3">
 		<p>Here's where you find out what your donations buy. Below is a detailed breakdown of the monies the group has received and what's been done with them. If you'd like to donate money to SLUG, we have a bank account. You may make the check out to <strong>SLUG</strong> or <strong>Suncoast Linux Users Group</strong>. If you can't attend meetings and but would like to donate to the group, you may write a check (as above) and send it to:</p>
 		<strong>
