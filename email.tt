@@ -1,6 +1,6 @@
 [% WRAPPER page.tt title = "SLUG Email Addresses" %]
 <div id="content3" style="text-align: center;">
-	Our group contains many people who volunteer their time and energy to make this a better group. Some of them are listed below. If you'd like to volunteer as well, <a href="volunteer.php">let us know</a>!<br />
+	Our group contains many people who volunteer their time and energy to make this a better group. Some of them are listed below. If you'd like to volunteer as well, <a href="volunteer.html">let us know</a>!<br />
 	<br />
 	President<br />
 	<a href="mailto:president@suncoastlug.org">Dylan Hardison</a><br />
@@ -33,6 +33,6 @@
 	<a href="mailto:staff@quillandmouse.com">Nancy J. Foster/Quill &amp; Mouse Studios, Inc.</a><br />
 	<br />
 	Help in other areas<br />
-	<a href="volunteer.php">You!</a><br />
+	<a href="volunteer.html">You!</a><br />
 </div>
 [% END %]

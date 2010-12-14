@@ -1,7 +1,7 @@
 [% WRAPPER page.tt title = 'For Sale' %]
 <div id="content3">
 (If you have goods or services you'd like to offer to Linux users in the Tampa Bay area,
-go <a href="./offers.php">here</a>. SLUG will evaluate your offer, and if
+go <a href="./offers.html">here</a>. SLUG will evaluate your offer, and if
 approved, it should appear here within 24 hours.)
 <p>
 Many local companies offer Linux or computer related services. Rather than

@@ -1,6 +1,6 @@
 [% WRAPPER page.tt title = "SLUG Officers" %]
 	<div id="content3">
-		<p>As with any group, someone has to handle the chores involved in keeping the group running and alive. Those are the <em>officers</em> of the group. Below is a list of the officers of this group and their duties. Some of these positions are filled, and some people hold more than one office. These jobs aren't glamorous, and you don't get paid for them. Your reward is the satisfaction that you've done something (hopefully) effective to keep the group alive and doing well. If you think you could help out, don't hesitate to <a href="volunteer.php">volunteer</a>!</p>
+		<p>As with any group, someone has to handle the chores involved in keeping the group running and alive. Those are the <em>officers</em> of the group. Below is a list of the officers of this group and their duties. Some of these positions are filled, and some people hold more than one office. These jobs aren't glamorous, and you don't get paid for them. Your reward is the satisfaction that you've done something (hopefully) effective to keep the group alive and doing well. If you think you could help out, don't hesitate to <a href="volunteer.html">volunteer</a>!</p>
 		<hr />
 		
 		<h3>Dylan Hardison - President</h3>

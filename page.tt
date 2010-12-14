@@ -24,25 +24,25 @@
 		</div>
 		<div id="sidebar">
 			<ul id="navlist">
-				<li><a href="./index.php">Home</a></li>
-				<li><a href="./history.php">History</a></li>
-				<li><a href="./join.php">Join&nbsp;Us</a></li>
-				<li><a href="./treasury.php">Treasury</a></li>
-				<li><a href="./meetings.php">Meetings</a></li>
-				<li><a href="./lists.php">Lists</a></li>
-				<li><a href="./officers.php">Officers</a></li>
-				<li><a href="./bylaws.php">Bylaws</a></li>
-				<li><a href="./faq.php">FAQ</a></li>
-				<li><a href="./links.php">Links</a></li>
-				<li><a href="./definitions.php">Definitions</a></li>
-				<li><a href="./opensource.php">Open&nbsp;Source</a></li>
-				<li><a href="./books.php">Books</a></li>
-				<li><a href="./sponsors.php">Sponsors</a></li>
-				<li><a href="./email.php">Email</a></li>
-				<li><a href="./proscons.php">Pros&nbsp;&amp;&nbsp;Cons</a></li>
-				<li><a href="./jobs.php">Jobs</a></li>
-				<li><a href="./forsale.php">For&nbsp;Sale</a></li>
-				<li><a href="./helpers.php">Helpers</a></li>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./history.html">History</a></li>
+				<li><a href="./join.html">Join&nbsp;Us</a></li>
+				<li><a href="./treasury.html">Treasury</a></li>
+				<li><a href="./meetings.html">Meetings</a></li>
+				<li><a href="./lists.html">Lists</a></li>
+				<li><a href="./officers.html">Officers</a></li>
+				<li><a href="./bylaws.html">Bylaws</a></li>
+				<li><a href="./faq.html">FAQ</a></li>
+				<li><a href="./links.html">Links</a></li>
+				<li><a href="./definitions.html">Definitions</a></li>
+				<li><a href="./opensource.html">Open&nbsp;Source</a></li>
+				<li><a href="./books.html">Books</a></li>
+				<li><a href="./sponsors.html">Sponsors</a></li>
+				<li><a href="./email.html">Email</a></li>
+				<li><a href="./proscons.html">Pros&nbsp;&amp;&nbsp;Cons</a></li>
+				<li><a href="./jobs.html">Jobs</a></li>
+				<li><a href="./forsale.html">For&nbsp;Sale</a></li>
+				<li><a href="./helpers.html">Helpers</a></li>
 			</ul>
 
 			<ul id="navlist">
@@ -90,7 +90,7 @@
 		</div>
 
 		<div id="footer">  <br />
-			<a href="./snags.php">Problems or comments?</a><br>
+			<a href="./snags.html">Problems or comments?</a><br>
 			Version 6.0 Last Updated 17 June 2010<br>
 			Copyright &copy; 1997-2010 by Suncoast Linux Users Group (SLUG)<br>
 			Linux is a trademark of Linus Torvalds<br>
