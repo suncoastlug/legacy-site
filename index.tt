@@ -1,5 +1,5 @@
-<?php $title = "SLUG Home Page";?>
-<?php include('include/header.php'); ?>
+[% WRAPPER page.tt
+	title = "SLUG Home Page" %]
 <div id="content1">
 
 <CENTER>
@@ -107,5 +107,4 @@ irc.shadowworld.net #sslug<br>
 </em>
 
 </div>
-
-<?php include("include/footer.php");?>
+[% END %]

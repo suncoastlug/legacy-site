@@ -1,6 +1,4 @@
-<?php $title = "SLUG Email Addresses";
-include("include/header.php");
-?>
+[% WRAPPER page.tt title = "SLUG Email Addresses" %]
 <div id="content3" style="text-align: center;">
 	Our group contains many people who volunteer their time and energy to make this a better group. Some of them are listed below. If you'd like to volunteer as well, <a href="volunteer.php">let us know</a>!<br />
 	<br />
@@ -8,8 +6,6 @@ include("include/header.php");
 	<a href="mailto:president@suncoastlug.org">Dylan Hardison</a><br />
 	<br />
 	President Emeritus<br />
-	<br />
-	Event Coordinator<br />
 	<a href="mailto:paulf@quillandmouse.com">Paul M. Foster</a><br />
 	<br />
 	Meeting Coordinators<br />
@@ -39,4 +35,4 @@ include("include/header.php");
 	Help in other areas<br />
 	<a href="volunteer.php">You!</a><br />
 </div>
-<?php include("include/footer.php"); ?>
+[% END %]

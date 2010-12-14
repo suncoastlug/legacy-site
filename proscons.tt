@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Pros &amp; Cons');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Pros &amp; Cons' %]
 <div id="content1">
 <DIV ALIGN="CENTER">
 <H3>
@@ -164,6 +161,4 @@ CD-based Linux distribution which does not alter your hard drive, yet
 runs a full version of Linux.
 And SuSE's manuals are some of the best in the Linux world.
 </div>
-END;
-page_footer();
-?>
+[% END %]

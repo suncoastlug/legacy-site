@@ -1,9 +1,4 @@
-<?php
-require_once('template.php');
-page_header('SLUG Lists');
-
-#echo <<<END
-?>
+[% WRAPPER page.tt title = 'SLUG Lists' %]
 <div id="content3">
 
 The SLUG mailing lists have been created as a service to, and in support
@@ -155,6 +150,4 @@ maintainer at <A HREF="mailto:listadmin@suncoastlug.org">listadmin@suncoastlug.o
 
 </div>
 
-<?php
-page_footer();
-?>
+[% END %]

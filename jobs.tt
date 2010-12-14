@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Jobs');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Jobs' %]
 <div id="content3">
 <p>
 (If you have a job you'd like to offer to Linux users in the Tampa Bay area,
@@ -18,8 +15,6 @@ who offer jobs here, you do so at your own risk. However, we ask that if you
 find a job offer to be bogus, please contact us. We will either remove the
 posting or revise the posting with the correct data.
 <!-- DATA GOES HERE -->
-END;
-include('jobs.txt');
-print "</div>\n";
-page_footer();
-?>
+[% INSERT "jobs.txt" %]
+</div>
+[% END %]

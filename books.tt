@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Books');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Books' %]
 <div id="content3">
 <CENTER>
 <H3>
@@ -663,6 +660,4 @@ The main Linux archive (<B>ftp</B>) sites are&nbsp;
 </LI>
 </UL>
 </div>
-END;
-page_footer();
-?>
+[% END %]

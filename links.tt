@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Links');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Links' %]
 <div id="content3">
 We've put together an extensive list of bookmarks
 to help you in your search for information on Linux. As things move around
@@ -566,6 +563,4 @@ are no longer valid.
 <LI><A HREF="http://www.xfree86.org/XFree86/">XFree86(TM): Home Page</A>
 </OL>
 </div>
-END;
-page_footer();
-?>
+[% END %]

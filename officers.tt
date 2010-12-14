@@ -1,5 +1,4 @@
-<?php $title = "SLUG Officers";
-include("include/header.php"); ?>
+[% WRAPPER page.tt title = "SLUG Officers" %]
 	<div id="content3">
 		<p>As with any group, someone has to handle the chores involved in keeping the group running and alive. Those are the <em>officers</em> of the group. Below is a list of the officers of this group and their duties. Some of these positions are filled, and some people hold more than one office. These jobs aren't glamorous, and you don't get paid for them. Your reward is the satisfaction that you've done something (hopefully) effective to keep the group alive and doing well. If you think you could help out, don't hesitate to <a href="volunteer.php">volunteer</a>!</p>
 		<hr />
@@ -22,4 +21,4 @@ include("include/header.php"); ?>
 		<h3>As needed - Event Coordinator</h3>
 		<p>This person ensures that meetings take place on a regular (at least monthly) schedule and are promoted effectively to members. He or she shall also bring the meetings and events to order and act as master of ceremonies. He may not use meetings as his personal forum for voicing his own opinions and prejudices. It is also his job to ensure that meetings are well attended, and that there are good reasons for members to attend. This would generally entail (among other things) lining up interesting speakers and presenters for meetings.</p>
 	</div>
-<?php include("include/footer.php");?>
+[% END %]

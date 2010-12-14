@@ -1,8 +1,5 @@
-<?php
-require_once('template.php');
-page_header('SLUG List Rules');
-
-echo <<<END
+[% 
+WRAPPER page.tt title = 'SLUG List Rules' %]
 <div id="content3">
 
 <center><h3><a name="rules">The Rules</a></h3></center>
@@ -151,6 +148,4 @@ a decision on the matter, which is final.
 </pre>
 <p>
 </div>
-END;
-page_footer();
-?>
+[% END %]

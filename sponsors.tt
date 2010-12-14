@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('SLUG Sponsors');
-echo <<<END
+[% WRAPPER page.tt title = 'SLUG Sponsors' %]
 <div id="content3">
 SLUG is <i>not</i> a for-profit venture. While our financial needs are
 meager, we still occasionally need money. Our members supply this by
@@ -80,6 +77,4 @@ companies.
 <hr>
 <a href="http://www.yellowdoglinux.com">Yellow Dog Linux<br><img src="./yellowdog.jpg"></a>
 </div>
-END;
-page_footer();
-?>
+[% END %]

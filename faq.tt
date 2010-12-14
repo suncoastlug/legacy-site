@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux FAQ');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux FAQ' %]
 <div id="content3">
 This feature of the SLUG website is just getting started. We're not going to
 answer all the question you have (there's a whole internet out there; go
@@ -2191,6 +2188,4 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 Paul M. Foster (script is Derek's)
 </strong>
 </div>
-END;
-page_footer();
-?>
+[% END %]

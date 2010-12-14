@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Stuart Anderson Talk');
-echo <<<END
+[% WRAPPER page.tt title = 'Stuart Anderson Talk' %]
 <div id="content3">
 The following is a talk given by Stuart Anderson to SLUG on 24 July 1999 at
 the Dunedin meeting. Stuart works for Metro Link, but is also part of
@@ -689,6 +686,4 @@ drafts of several things that haven't been pulled into the main document.
 Like I said, there's a <EM>de jour</EM> version of the document as a whole there as
 well.
 </div>
-END;
-page_footer();
-?>
+[% END %]

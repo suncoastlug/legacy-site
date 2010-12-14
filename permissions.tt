@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Permissions');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Permissions' %]
 <div id="content3">
 <H3>The SLUG Presentation Series</H3>
 <P>
@@ -480,6 +477,4 @@ more information, see the <b>chown(1)</b> man page.
 <p>
 <b>Paul M. Foster</b>
 </div>
-END;
-page_footer();
-?>
+[% END %]

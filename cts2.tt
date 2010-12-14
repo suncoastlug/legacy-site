@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('CTS2 Show');
-echo <<<END
+[% WRAPPER page.tt title = 'CTS2 Show' %]
 <div id="content3">
 <h3>Computer &amp; Technology Showcase, May 2001</h3>
 After the rousing success of our first
@@ -40,6 +37,4 @@ was the hit of the event. We had the most lively people, having the
 most fun, with the most activity around our booth. See
 <a href="http://www.nks.net/CTS/">here</a> for pictures.
 </div>
-END;
-page_footer();
-?>
+[% END %]

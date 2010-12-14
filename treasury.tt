@@ -1,4 +1,4 @@
-<?php $title = "SLUG Treasury Page";
+[% WRAPPER page.tt title = "SLUG Treasury Page" %]
 include("include/header.php");
 ?>
 	<div id="content3">
@@ -14,4 +14,4 @@ include("include/header.php");
 		<hr />
 		<iframe width=780 height=100% frameborder=0 src=https://spreadsheets.google.com/a/unix-people.org/ccc?key=0AhnN6APggaW2dG1iNTY0bnVheVUxODlLS3VDRTBicFE&output=html&chrome=false&widget=true&hl=en></iframe>
 	</div>
-<?php include("include/footer.php"); ?>
+[% END %]

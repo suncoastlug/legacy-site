@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('SLUG Bylaws');
-echo <<<END
+[% WRAPPER page.tt title = 'SLUG Bylaws' %]
 <div id="content3">
 <h3>ARTICLE I<br>Composition and Membership</h3>
 The Suncoast Linux Users Group (SLUG) is a membership organization of Linux
@@ -297,6 +294,4 @@ Committee, or by majority vote of the membership.
 <br><i>Submitted 10 December 2000.</i>
 <br><i>Version 1.2</i>
 </div>
-END;
-page_footer();
-?>
+[% END %]

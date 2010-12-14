@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Open Source');
-echo <<<END
+[% WRAPPER page.tt title = 'Open Source' %]
 <div id="content3">
 <H2><A NAME="section-1.1">Copyrights</A></H2>
 <P>
@@ -282,6 +279,4 @@ a wealth of information on Open Source, how it came to be, what it is, etc.
 <EM>Paul M. Foster<BR>
 Version 1.1</EM>
 </div>
-END;
-page_footer();
-?>
+[% END %]

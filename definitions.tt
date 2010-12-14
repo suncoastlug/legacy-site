@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Linux Definitions');
-echo <<<END
+[% WRAPPER page.tt title = 'Linux Definitions' %]
 <div id="content3">
 Here is a list of definitions I've created. Since technology in the computer
 field changes so fast, many of these may not be found in the computer
@@ -192,6 +189,4 @@ for Linux. There are other X-Window servers, but this is the primary one
 that ships with Linux distributions.
 </DL>
 </div>
-END;
-page_footer();
-?>
+[% END %]

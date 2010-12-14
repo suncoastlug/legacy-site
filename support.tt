@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('Support');
-echo <<<END
+[% WRAPPER page.tt title = 'Support' %]
 <div id="content3">
 One of the best things about Linux is the abundant support available to
 users. Here is a list of group members who are willing to lend a virtual
@@ -73,6 +70,4 @@ SuSE</H4>
 <CENTER>
 <H2>
 </div>
-END;
-page_footer();
-?>
+[% END %]

@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('The Original SLUG Logo and Mascot');
-echo <<<END
+[% WRAPPER page.tt title = 'The Original SLUG Logo and Mascot' %]
 <div id="content3">
 
 <img src="./sluglogo.gif" alt="Sylvester, The SLUG Mascot"
@@ -60,6 +57,4 @@ piece of history, in case anyone's interested.
 <p>
 Paul M. Foster
 </div>
-END;
-page_footer();
-?>
+[% END %]

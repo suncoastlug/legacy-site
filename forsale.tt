@@ -1,7 +1,4 @@
-<?php
-require_once('template.php');
-page_header('For Sale');
-echo <<<END
+[% WRAPPER page.tt title = 'For Sale' %]
 <div id="content3">
 (If you have goods or services you'd like to offer to Linux users in the Tampa Bay area,
 go <a href="./offers.php">here</a>. SLUG will evaluate your offer, and if
@@ -13,8 +10,4 @@ goods and services vendors want to offer to SLUG members. Of course, SLUG can't
 vouch for these companies, individuals and services. You use/purchase them at
 your own risk.
 <p>
-END;
-include('forsale.txt');
-print "</div>\n";
-page_footer();
-?>
+[% END %]

@@ -1,8 +1,5 @@
-<?php
-require_once('template.php');
-page_header('SLUG History');
-
-echo <<<END
+[% 
+WRAPPER page.tt title = 'SLUG History' %]
 <div id="content1">
 <CENTER>
 <H3>
@@ -304,6 +301,4 @@ At the same time, PUP (Pinellas Unix People, unix-people.org) joined with SLUG.
 Bill Davison volunteers for the new Treasurer of SLUG
 <p>
 </div>
-END;
-page_footer();
-?>
+[% END %]

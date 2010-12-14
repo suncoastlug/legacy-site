@@ -1,9 +1,6 @@
-<?php
-require_once('template.php');
+[% 
 
-page_header('Meetings');
-
-echo <<<END
+WRAPPER page.tt title = 'Meetings' %]
 <div id="content3">
 The <B>Suncoast Linux Users Group (SLUG)</B>
 holds monthly meetings at several locations and times. The monthly meetings
@@ -171,6 +168,4 @@ Directions</H4></CENTER>
 Map <a href="http://www.stpt.usf.edu/directions.htm">here</a>.
 -->
 </div>
-END;
-page_footer();
-?>
+[% END %]
